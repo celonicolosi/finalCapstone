@@ -10,7 +10,7 @@ nlp = spacy.load("en_core_web_md")
 with open("movies.txt", "r") as f:
     movies = f.readlines()
 
-planet_hulk = "Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk lands on the planet Sakaar where he is sold into slavery and trained as a gladiator."
+my_movie = "Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk lands on the planet Sakaar where he is sold into slavery and trained as a gladiator."
 
 def watch_next(movie, movie_list):
     # create a dictionary to store the similarity scores
@@ -32,4 +32,4 @@ def watch_next(movie, movie_list):
     print("\nBECAUSE YOU WATCHED PLANET HULK:\n")
     print(sorted_movies[0][0])
 
-watch_next(planet_hulk, movies)
+watch_next(my_movie, movies)
