@@ -52,9 +52,9 @@ Please note that if your machine does not recognize the python command, you may 
 
 1. Open the watch_next.py file.
 
-2. Inside the script, you will find a variable named my_movie set to the description of a sample movie (Planet Hulk). You can modify this variable and replace it with the description of the last movie you enjoyed watching.
+2. Inside the script, you will find a variable named `my_movie` set to the description of a sample movie (Planet Hulk). You can modify this variable and replace it with the description of the last movie you enjoyed watching.
 
-3. In the movies.txt file, you will find a list of movies to compare and analyze for the best recommendation. You can modify this list by replacing the movie descriptions with your own collection of movies or desired movies to watch next. Each movie should be formatted as follows, with one movie per line:
+3. In the `movies.txt` file, you will find a list of movies to compare and analyze for the best recommendation. You can modify this list by replacing the movie descriptions with your own collection of movies or desired movies to watch next. Each movie should be formatted as follows, with one movie per line:
 
     Movie A: The world at an end, a dying mother sends her young son on a quest to find the place that grants wishes.
     Movie B: After the death of Superman, several new people present themselves as possible successors.
@@ -73,8 +73,8 @@ python watch_next.py
 If you encounter any issues during the installation or usage of the Watch Next tool, consider the following solutions:
 
 - Ensure that you have installed all the required dependencies correctly and that they are up to date.
-- Double-check the formatting of the movie descriptions in the movies.txt file to ensure they follow the specified format.
-- If you encounter any errors related to language models, verify that the en_core_web_md model has been successfully downloaded.
+- Double-check the formatting of the movie descriptions in the `movies.txt` file to ensure they follow the specified format.
+- If you encounter any errors related to language models, verify that the `en_core_web_md` model has been successfully downloaded.
 - If problems persist, feel free to open an issue in the project's GitHub repository for further assistance.
 
 We hope you enjoy using Watch Next for personalized video recommendations!
