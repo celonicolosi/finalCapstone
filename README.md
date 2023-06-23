@@ -57,6 +57,7 @@ Please note that if your machine does not recognize the python command, you may 
 3. In the `movies.txt` file, you will find a list of movies to compare and analyze for the best recommendation. You can modify this list by replacing the movie descriptions with your own collection of movies or desired movies to watch next. Each movie should be formatted as follows, with one movie per line:
 
     Movie A: The world at an end, a dying mother sends her young son on a quest to find the place that grants wishes.
+    
     Movie B: After the death of Superman, several new people present themselves as possible successors.
 
 4. Save the changes and run the `watch_next.py` script using Python:
