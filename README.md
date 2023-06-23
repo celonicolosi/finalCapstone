@@ -60,7 +60,7 @@ Please note that if your machine does not recognize the python command, you may 
     
     Movie B: After the death of Superman, several new people present themselves as possible successors.
 
-4. Save the changes and run the `watch_next.py` script using Python:
+5. Save the changes and run the `watch_next.py` script using Python:
 
 ```bash
 python watch_next.py
